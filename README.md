@@ -28,4 +28,4 @@ For information on creating the Azure Function, please see the following link:
    ```
    markdown=%datetime | [%device](%linkdevice) [%name](%linksensor) %status %down (%message) 
    ```
-6. Send a test notificaiton. 
+6. Generate a notificaiton. Please note that sending a test notificaiton will fail as the message is expected to have a datetime string. 
