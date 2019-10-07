@@ -13,7 +13,7 @@ For information on creating the Azure Function, please see the following link:
 
 [Create an HTTP triggered function in Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-python)
 
-1. Clone this repository and replace the default Function's \__init\__.py with the one from the repository. 
+1. Clone this repository and replace the default Function's \_\_init\_\_.py with the one from the repository. 
 2. Populate the WEBEX_WEBHOOK_URL constant with the Webhook URL from App Hub.
 3. Deploy the modified Function to Azure.
 4. Add a Function Key to protect the Function abuse and make note of the key.
